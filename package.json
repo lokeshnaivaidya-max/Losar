@@ -1,0 +1,54 @@
+{
+  "name": "losar",
+  "version": "1.0.0",
+  "description": "Losar 3D: An interactive audio-reactive cosmic journey built with React Three Fiber, Three.js, and WebGL shaders.",
+  "author": "Lokesh Naivaidya <lokesh.naivaidya@gmail.com>",
+  "keywords": [
+    "react-three-fiber",
+    "threejs",
+    "audio-reactive",
+    "webgl",
+    "glsl",
+    "shaders",
+    "react",
+    "space"
+  ],
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lokeshnaivaidya-max/Losar.git"
+  },
+  "engines": {
+    "node": ">=16 <=22"
+  },
+  "dependencies": {
+    "@react-three/drei": "^7.3.1",
+    "@react-three/fiber": "^7.0.6",
+    "babel-plugin-glsl": "^1.0.0",
+    "canvas-sketch-util": "^1.10.0",
+    "glsl-blend-soft-light": "^1.0.5",
+    "glsl-film-grain": "^1.0.4",
+    "glsl-noise": "^0.0.0",
+    "glslify": "^7.1.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-scripts": "4.0.0",
+    "three": "^0.131.3",
+    "zustand": "^3.3.3"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "test": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
